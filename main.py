@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import winsound
 import threading
 
-video = cv2.VideoCapture('video03.mp4')
+video = cv2.VideoCapture('assets/video01.mp4')
 model = YOLO('yolov8n.pt')
 controlAlarm = False
 
