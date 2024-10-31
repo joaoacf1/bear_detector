@@ -5,7 +5,7 @@ import winsound
 import threading
 
 video = cv2.VideoCapture('assets/video01.mp4')
-model = YOLO('yolov8n.pt')
+model = YOLO('yolov8l.pt')
 controlAlarm = False
 
 def alarm():
